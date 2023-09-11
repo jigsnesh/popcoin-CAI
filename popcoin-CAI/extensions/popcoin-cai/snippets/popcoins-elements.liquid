@@ -1,0 +1,40 @@
+{% if block.settings.show_popcoin_bar %}
+
+  <pop-coin-bottom-bar id="popcoinBottomBar" class="popcoin-bottom-bar">
+
+    <button
+      type="submit"
+      id="popcoinsBottomBtn"
+      class="popcoins-bottom-btn"
+      style="color: {{ block.settings.text_color }}; background: {{ block.settings.background_color }};">
+      <span id="popcoinBtnSpan">
+        <span class="rewards-title">{{ block.settings.reward_title }}</span>
+        <img
+          src="https://ecomapp-dev.s3.ap-south-1.amazonaws.com/media/Coin.png"
+          height="30"
+          width="30"
+          loading="lazy">
+        Get upto 30% Off using POPcoins
+        <img
+          class="arrow"
+          src="https://ecomapp-dev.s3.ap-south-1.amazonaws.com/media/arrow-right.png"
+          height="16"
+          width="13"
+          loading="lazy">
+      </span>
+    </button>
+
+    <div id="popcoinsIframeModal" class="popcoins-modal">
+      <div class="popcoins-modal-content">
+        <div id="popcoinsModalCloseBtn" class="popcoins-modal-close-btn">×</div>
+        <iframe
+          src="{{ block.settings.popcoins_iframe_url }}"
+          title="POP CLUB"
+          width="100%"
+          height="100%"
+          class="popcoins-iframe"
+          id="popcoinsIframe"></iframe>
+      </div>
+    </div>
+  </pop-coin-bottom-bar>
+{% endif %}

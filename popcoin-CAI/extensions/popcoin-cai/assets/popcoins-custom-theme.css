@@ -1,0 +1,267 @@
+button#popcoinsBottomBtn{background: #8dd4bd!important;color: #fff!important;}
+.custom_popcoin_box p#product-issuance-msg{
+  font-family: Roboto !important;
+  font-size: 13px !important;
+  color:#1A1B18;
+  letter-spacing:0;
+}
+#popcoinBtnSpan img {
+    margin-right: 3px;
+}
+input#buy-with-pop-coins-cart-page-checkbox,input#buy-with-pop-coins-cart-drawer-checkbox {
+    margin: 0;
+}
+.cart-template-custom .popcoin-bottom-bar,.overflow-hidden-tablet #popcoinsBottomBtn, .modal-open #popcoinsBottomBtn{
+  display: none;
+}
+.pop-club-listing {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+#buy-with-pop-coins-cart-drawer-label,#buy-with-pop-coins-cart-page-label{
+cursor:pointer;
+font-size: 13px;
+letter-spacing: 0.5px;
+line-height: 13px;
+text-transform:inherit;
+}
+.shopify-section--main-product .pdp_popcoin{
+  height:10px;
+}
+.pop-club-listing p {
+  text-align: left;
+  font-size: 1.4rem;
+/*   padding: 5px 0 0 0; */
+  font-weight: 400 !important;
+  color: #292929 !important;
+
+}
+.manual-class #product-issuance-msg{
+   font-size: 15px !important;
+}
+.pop-club-listing p span.pop-img {
+  top: 5px !important;
+  position: relative;
+  vertical-align: baseline !important;
+}
+.pop-club-listing p .pop-img img {
+  max-width: 18px;
+}
+button#shopify-payment-button-popapp {
+  
+  width: 100%;
+  color: #fff;
+  cursor: pointer;
+  line-height: 1;
+  border: none;
+  padding: 15px 10px;
+  font-size: 13px;
+  text-transform: uppercase;
+  position: relative;
+  justify-content: center;
+  display: flex;
+  
+  height: 52px;
+  letter-spacing: 2px;
+  font-weight: 800;
+  align-items: center;
+}
+.popcoinsConfiguration  {
+  text-align: right;
+  max-width: inherit;
+  margin: 15px auto 20px;
+  position: relative;
+  left:0px;
+}
+.custom-popcoin-drawer #buy-with-pop-coins-cart-drawer-label {
+  letter-spacing: 1px;
+  font-weight: 400 !important;
+  margin-right: 60px;
+}
+.lott {
+  z-index: -1;
+}
+.popcoinsConfiguration .popcoins-lottie-animation {
+  position: absolute;
+  top: -7px;
+  right: 0px;
+  width: 60px;
+  height: 34px;
+}
+.label-pop {
+  letter-spacing: 1px;
+  font-weight: 400 !important;
+  margin-right: 65px;
+}
+/*end custom  */
+.popcoins-modal {
+	z-index: 9999999999 !important;
+}
+
+.popcoins-lottie-animation {
+	display: block !important;
+}
+
+@media (min-width: 1025px) {
+	.popcoinsMenu .popcoins-lottie-animation {
+		
+        position: absolute;
+        bottom: 5px;
+        right: -45px;
+        top: -4px;
+	}
+}
+
+.popcoinsLabel {
+	display: flex;
+	align-items: center;
+}
+
+.popcoinsMenu span {
+	display: flex;
+}
+
+.popcoins-modal-content {
+	width: 100% !important;
+}
+
+.popcoins-on-grid-item p {
+	font-size: 20px;
+}
+
+@media (max-width: 1024px) {
+	.popcoinsMenu span {
+		align-items: center;
+	}
+}
+
+#product-issuance-msg .pop-img img {
+	width: 18px;
+	height: 18px;
+}
+
+ul.list-menu.list-menu--inline>li:nth-child(5) {
+	display: none !important;
+}
+
+ul.list-menu.list-menu--inline>li:last-child {
+	display: block !important;
+}
+
+p#product-issuance-msg {
+	margin: 0;
+}
+
+@media screen and (min-width: 769px) {
+	ul.list-menu.list-menu--inline li {
+		margin: 0 !important;
+	}
+
+	.popcoinsMenu {
+		/*     height: 60px; */
+	}
+
+	nav.header__inline-menu a {
+		/*     padding: 1.2rem 1.5rem !important; */
+	}
+  .reset23947hdfjue8934 img{
+    bottom:30px !important;
+  }
+ 
+}
+
+.popcoins-bottom-btn {
+	z-index: 10;
+}
+
+.popcoinMobMenu a {
+	display: flex;
+	align-items: center;
+}
+
+@media (max-width: 1024px) {
+	.stikcy-popcoins-bottom-btn {
+		margin-bottom: 57px;
+	}
+
+	.popcoins-on-grid-item p {
+		font-size: 14px;
+	}
+}
+/* #product-issuance-msg .pop-img img{
+  width: 20px;
+  height: 20px;
+}
+ul.list-menu.list-menu--inline > li:nth-child(5) {
+  display: none !important;
+}
+ul.list-menu.list-menu--inline > li:last-child {
+  display: block !important;
+}
+p#product-issuance-msg{
+  margin: 0;
+}
+@media screen and (min-width: 769px){
+  ul.list-menu.list-menu--inline li {
+    margin: 0 10px !important;
+  }
+  .popcoinsMenu{
+  }
+  nav.header__inline-menu a {
+  }
+}
+.popcoins-bottom-btn {
+z-index: 10;
+}
+.popcoinMobMenu a{
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 1024px) {
+	.stikcy-popcoins-bottom-btn {
+		margin-bottom: 57px;
+	}
+  .popcoins-on-grid-item p {
+    font-size: 14px'
+  }
+}
+ */
+.popCoinsEarnCallout{
+font-size: 20px !important;
+}
+.popCoinsClickBtn{
+font-weight: bold;
+text-decoration: underline;
+}
+@media screen and (min-width: 769px){
+
+
+ul.list-menu.list-menu--inline li{
+margin: 0 !important;  
+}
+}
+.popcoinsMenu a{
+cursor: pointer !important;
+}
+#wa_btn_popup{
+bottom: 50px !important;
+}
+
+.zeroPopcoinsCallout{
+border-left: 2px solid #ffffff;
+padding-right: 12px;
+padding-left: 12px;
+}
+.popCoinsClickBtn{
+font-weight: bold;
+text-decoration: underline;
+}
+.popCoinsClickCallout{
+width: 100% !important;
+}
+.popcoinsLabel{
+column-gap: 3px;
+}

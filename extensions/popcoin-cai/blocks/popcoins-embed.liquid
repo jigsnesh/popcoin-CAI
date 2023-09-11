@@ -1,0 +1,63 @@
+<input type="hidden" id="pop-club-iframe-url">
+<input type="hidden" id="pop-club-login-flag">
+<input type="hidden" id="pop-club-redeem-price">
+<input type="hidden" id="pop-club-data-redeem">
+<input type="hidden" id="pop-club-data-coins">
+
+
+{% render "popcoins-elements" %}
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js" defer></script>
+<script src="{{ 'popcoins-embed.js' | asset_url }}" defer></script>
+<script src="{{ 'popcoins-custom-theme.js' | asset_url }}" defer></script>
+
+<link rel="stylesheet" href="{{ 'popcoins-embed.css' | asset_url }}">
+<link rel="stylesheet" href="{{ 'popcoins-custom-theme.css' | asset_url }}">
+
+
+{% schema %}
+  {
+    "name": "Pop Club - POPCOINS",
+    "target": "body",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Popcoin bar configuration"
+      },
+      {
+        "type": "text",
+        "id": "reward_title",
+        "label": "Reward Title",
+        "default": "REWARDS"
+      },
+      {
+        "type": "text",
+        "id": "reward_msg",
+        "label": "Reward Message",
+        "default": "Get upto 10% Off using Popcoins"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_popcoin_bar",
+        "label": "Show popcoin bar",
+        "default": true
+      }, {
+        "type": "color",
+        "id": "background_color",
+        "label": "Background color",
+        "default": "#000000"
+      }, {
+        "type": "color",
+        "id": "text_color",
+        "label": "Text color",
+        "default": "#ffffff"
+      }, {
+        "type": "header",
+        "content": "Iframe configuration"
+      }, {
+        "type": "url",
+        "id": "popcoins_iframe_url",
+        "label": "Popcoins iframe url"
+      }
+    ]
+  }
+{% endschema %}

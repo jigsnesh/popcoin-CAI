@@ -1,0 +1,270 @@
+.popcoinsModalActive{
+  overflow: hidden;
+}
+
+#buy-with-pop-coins-cart-drawer-label,#buy-with-pop-coins-cart-page-label {
+position: relative;
+margin-right: 60px;
+margin-bottom:0;
+}
+.custom-checkout-button, .custom-page-checkout-button{
+width:100%;
+}
+#CartPageForm .popcoinsConfiguration .popcoins-lottie-animation{top:-11px!important;}
+.popcoinsConfiguration .popcoins-lottie-animation{right: -60px!important;top:-13px!important;}
+
+.product-sticky-cart{bottom:38px !important;}
+.mini-cart__footer .popcoinsConfiguration {justify-content: center;}
+.popcoinsMenu .popcoins-lottie-animation{
+bottom:10px !important;
+}
+.mini-cart__footer #buy-with-pop-coins-cart-drawer-label {
+position: relative;
+}
+.smile-launcher-frame-container.smile-launcher-border-radius-circular.smile-launcher-closed,#wa-chat-btn-root{
+bottom: 8% !important;
+}
+.mini-cart__footer .popcoinsConfiguration .popcoins-lottie-animation{right:-60px;}
+.predictive-search__item-content .pop-club-listing{
+justify-content: flex-start;
+}
+.header--has-social .menu-drawer__utility-links{
+bottom:15px;
+}
+#buy-with-pop-coins-cart-page-label {
+margin-right: 60px;
+font-size: 14px;
+cursor:pointer;
+}
+.predictive-search__item-content .pop-club-listing p{ font-size: 11px !important;}
+.pop-club-listing p {
+text-align: left;
+font-weight: 400 !important;
+color: #292929 !important;
+font-size: 15px !important;
+margin:0;
+}
+.pop-club-listing p span.pop-img {
+top: 5px !important;
+position: relative;
+vertical-align: baseline !important;
+}
+.template-cart .popcoins-bottom-btn, .js-drawer-open .popcoins-bottom-btn{
+display:none;
+}
+.pop-club-listing p .pop-img img {
+max-width: 18px;
+}
+#popcoinsBottomBtn span img.arrow{
+filter: brightness(1) invert(0) !important
+}
+.pop-club-listing {
+display: flex;
+align-items: center;
+flex-wrap: nowrap;
+justify-content: space-around;
+}
+.popcoins-bottom-btn{
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  padding: 5px;
+  border: none;
+}
+.popcoins-bottom-btn span{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+font-size: 18px;
+}
+.rewards-title{
+  border-right: 2px solid #ffffff;
+  padding-right: 12px;
+  margin-right: 12px;
+  font-weight: 500;
+  font-size: 20px;
+}
+.available_popcoins {
+  display: flex;
+  align-items: center;
+  border: 1px solid #fff;
+  padding: 0px 10px;
+  border-radius: 20px;
+  margin: 0px 10px;
+  font-size: 16px;
+  line-height: 27px;
+  font-weight: 500;
+}
+
+.available_popcoins img {
+  width: 21px;
+  height: 21px;
+  margin-right: 3px !important;
+}
+
+
+
+.popcoins-modal{
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  padding: 30px 15px;
+  overflow: hidden;
+  visibility: visible;
+  background-color: rgba(0,0,0,0.4);
+}
+.popcoins-modal-content{
+  height: 100%;
+  padding: 0 !important;
+  position: relative;
+
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.popcoins-modal-close-btn {
+  color: #fff;
+  float: right;
+  font-size: 28px;
+  cursor: pointer;
+  background: transparent;
+  position: absolute;
+  right: 35px;
+  font-weight: 400;
+  display: flex;
+  height: 35px;
+  width: 35px;
+  border: 1px solid;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5px;
+  margin: 15px 0;
+  background-color: #000000;
+}
+
+.popcoins-iframe{
+  height: 100%;
+  width: 400px;
+  border-radius: 20px;
+}
+
+
+
+.popcoins-on-grid-item {
+  display: flex;
+  align-items: center;
+}
+.popcoins-on-grid-item p .pop-img img {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+
+p#product-issuance-msg{
+  display: flex;
+  align-items: center;
+  line-height: 26px;
+  column-gap: 4px;
+}
+p#product-issuance-msg .pop-img {
+width: 20px;
+height: 20px;
+}
+#product-issuance-msg .info-popup-coin {
+max-width: 12px;
+margin-left: 6px;
+cursor: pointer;
+}
+
+.hidden{
+  display: none;
+}
+
+.popcoinsConfiguration{
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+  cursor: pointer;
+justify-content: flex-start;
+}
+
+@media screen and (max-width: 767px) {
+.popcoins-bottom-btn span{font-size:15px;}
+#CartPageForm .popcoinsConfiguration .popcoins-lottie-animation{top:-14px!important;} 
+  .popcoins-modal-content{
+      padding: 30px;
+  }
+  .popcoins-modal-close-btn{
+      right: 15px !important;
+  }
+  .rewards-title{
+      display: none !important;
+  }
+p#product-issuance-msg{justify-content:center;}
+#buy-with-pop-coins-cart-drawer-label{margin-right: 45px;}
+.pop-club-listing p{font-size: .75rem!important;}
+ #buy-with-pop-coins-cart-drawer-label, #buy-with-pop-coins-cart-page-label{
+  font-size:12px;
+}
+}
+.popCoinsLoader{
+  display: none;
+  background-color: rgba(0,0,0,0.4);
+}
+.popCoinsLoader::before {
+  content: " ";
+  border: 12px solid #e4e4e4;
+  border-radius: 50%;
+  border-top: 12px solid #000000;
+  width: 80px;
+  height: 80px;
+  -webkit-animation: pLoaderSpin 2s linear infinite; 
+  animation: pLoaderSpin 2s linear infinite;
+  position: fixed;
+  top: 50%;
+  left: 45%;
+  z-index: 15;
+
+}
+@-webkit-keyframes pLoaderSpin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes pLoaderSpin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.popcoinsLabel{
+  cursor: pointer;
+}
+
+.popcoins-on-grid-item p {
+display: flex;
+align-items: center;
+margin: 0 !important;
+justify-content: center;
+column-gap: 8px;
+}
+
+.popcoins-login-checkbox {
+display: none;
+appearance: auto !important;
+--webkit-appearance: auto !important;
+width: unset !important;
+height: unset !important;
+position: relative !important;
+}
+
+.popCoinsEarnCallout {
+font-size: 20px;
+}
